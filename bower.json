@@ -11,12 +11,12 @@
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
+  "homepage": "http://getcranberry.com",
   "license": "MIT",
   "moduleType": "globals",
   "main": [
-    "scss/bootstrap.scss",
-    "dist/js/bootstrap.js"
+    "scss/cranberry.scss",
+    "dist/js/cranberry.js"
   ],
   "ignore": [
     "/.*",

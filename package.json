@@ -12,8 +12,8 @@
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
-  "author": "The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)",
+  "homepage": "http://getcranberry.com",
+  "author": "The cranberry Authors (https://github.com/twbs/cranberry/graphs/contributors)",
   "contributors": [
     "Twitter, Inc."
   ],
@@ -26,15 +26,15 @@
     "shrinkwrap": "npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json",
     "test": "npm run eslint && npm run jscs && grunt test"
   },
-  "style": "dist/css/bootstrap.css",
-  "sass": "scss/bootstrap.scss",
+  "style": "dist/css/cranberry.css",
+  "sass": "scss/cranberry.scss",
   "main": "./dist/js/npm",
   "repository": {
     "type": "git",
-    "url": "https://github.com/twbs/bootstrap.git"
+    "url": "https://github.com/twbs/cranberry.git"
   },
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap/issues"
+    "url": "https://github.com/twbs/cranberry/issues"
   },
   "license": "MIT",
   "dependencies": {
@@ -46,27 +46,13 @@
     "babel-eslint": "^6.0.4",
     "eslint": "^2.11.1",
     "grunt": "^0.4.5",
-    "grunt-babel": "^5.0.3",
-    "grunt-build-control": "^0.7.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-compress": "^1.1.0",
-    "grunt-contrib-concat": "^1.0.0",
-    "grunt-contrib-connect": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.0",
-    "grunt-contrib-qunit": "^1.0.1",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-uglify": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-exec": "^1.0.0",
-    "grunt-html": "^8.0.1",
-    "grunt-jekyll": "^0.4.2",
     "grunt-sass": "^1.0.0",
-    "grunt-saucelabs": "^8.6.1",
     "grunt-scss-lint": "^0.3.8",
-    "grunt-stamp": "^0.2.0",
-    "is-travis": "^1.0.0",
-    "jscs": "^3.0.4",
     "load-grunt-tasks": "^3.4.0",
     "postcss-cli": "^2.5.2",
     "postcss-flexbugs-fixes": "^2.0.0",
@@ -86,7 +72,7 @@
     "LICENSE"
   ],
   "jspm": {
-    "main": "js/bootstrap",
+    "main": "js/cranberry",
     "ignore": [
       "dist/js/npm"
     ],
@@ -94,7 +80,7 @@
       "lib": "dist"
     },
     "shim": {
-      "js/bootstrap": {
+      "js/cranberry": {
         "deps": [
           "jquery"
         ],

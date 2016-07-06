@@ -100,7 +100,7 @@ $global-right: if($global-text-direction == rtl, left, right);
 // Variables
 //
 // Copy settings from this file into the provided `_custom.scss` to override
-// the Bootstrap defaults without modifying key, versioned files.
+// the cranberry defaults without modifying key, versioned files.
 
 
 // Table of Contents
@@ -139,7 +139,7 @@ $global-right: if($global-text-direction == rtl, left, right);
 
 // Colors
 //
-// Grayscale and brand colors for use across Bootstrap.
+// Grayscale and brand colors for use across cranberry.
 
 $gray-dark:                 #373a3c !default;
 $gray:                      #55595c !default;
@@ -171,7 +171,7 @@ $enable-print-styles:       true !default;
 
 // Spacing
 //
-// Control the default styling of most Bootstrap elements by modifying these
+// Control the default styling of most cranberry elements by modifying these
 // variables. Mostly focused on spacing.
 // You can add more entries to the $spacers map, should you need more variation.
 
@@ -358,7 +358,7 @@ $table-border-color:            $gray-lighter !default;
 
 // Buttons
 //
-// For each of Bootstrap's buttons, define text, background and border color.
+// For each of cranberry's buttons, define text, background and border color.
 
 $btn-padding-x:                  1rem !default;
 $btn-padding-y:                  .5rem !default;
